@@ -25,6 +25,25 @@ Contents:
 
 Welcome to the world of Crea!
 
+Modding
+=======
+
+Check out some information on how to mod Crea!
+
+.. toctree::
+   :maxdepth: 1
+
+   features.rst
+   components.rst
+   character.rst
+   crafting.rst
+   equipment.rst
+   world.rst
+   inventory.rst
+   music.rst
+   talents.rst
+   biomes.rst
+
 Indices and tables
 ==================
 
