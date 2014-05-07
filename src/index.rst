@@ -25,8 +25,8 @@ Contents:
 
 Welcome to the world of Crea!
 
-Modding
-=======
+Modding Information
+===================
 
 Check out some information on how to mod Crea!
 
@@ -43,6 +43,11 @@ Check out some information on how to mod Crea!
    music.rst
    talents.rst
    biomes.rst
+
+Modding Tutorials
+=================
+
+None yet!
 
 Indices and tables
 ==================
