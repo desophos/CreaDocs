@@ -47,7 +47,10 @@ Check out some information on how to mod Crea!
 Modding Tutorials
 =================
 
-None yet!
+.. toctree::
+   :maxdepth: 1
+   
+   spritesheet_assist.rst
 
 Indices and tables
 ==================
