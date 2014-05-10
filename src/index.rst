@@ -25,10 +25,10 @@ Contents:
 
 Welcome to the world of Crea!
 
-Modding Information
-===================
+Modding
+=======
 
-Check out some information on how to mod Crea!
+Check out some information and help on how to mod Crea!
 
 .. toctree::
    :maxdepth: 1
@@ -44,12 +44,8 @@ Check out some information on how to mod Crea!
    talents.rst
    biomes.rst
 
-Modding Tutorials
-=================
-
-.. toctree::
-   :maxdepth: 1
-   
+   templates.rst
+   ce_files.rst
    spritesheet_assist.rst
 
 Indices and tables
