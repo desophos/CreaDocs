@@ -44,6 +44,7 @@ Check out some information and help on how to mod Crea!
    talents.rst
    biomes.rst
 
+   pyd_usage.rst
    templates.rst
    ce_files.rst
    spritesheet_assist.rst
