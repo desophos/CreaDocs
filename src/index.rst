@@ -47,6 +47,7 @@ Check out some information and help on how to mod Crea!
    templates.rst
    ce_files.rst
    spritesheet_assist.rst
+   overwriting_logic.rst
 
 Indices and tables
 ==================
