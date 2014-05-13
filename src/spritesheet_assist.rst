@@ -23,7 +23,8 @@ So that modders (you) don't have to count pixels in the .png,
 TexturePacker has a utility to export a .xml file with pixel data
 of all the sprites in a spritesheet.
 
-TODO: give more information about *how* to do TexturePacker exporting
+TODO: give more information about *how* to do TexturePacker exporting.
+Include mention of marked spritesheets.
 
 spritesheet_assist.py
 ---------------------

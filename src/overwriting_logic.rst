@@ -10,6 +10,7 @@ have to change our mod's registration.py file.
 
 An example is a good way to illustrate the method of 
 post-registration logic replacement. In mods/mymod/registration.py::
+
 	# We have to set up an event listener so that our replacement 
 	# function runs after the game systems have been registered,
 	# i.e. after the logic has all been loaded. 

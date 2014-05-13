@@ -45,10 +45,9 @@ Check out some information and help on how to mod Crea!
    biomes.rst
 
    pyd_usage.rst
-   templates.rst
-   ce_files.rst
    spritesheet_assist.rst
    overwriting_logic.rst
+   templates.rst
 
 Indices and tables
 ==================

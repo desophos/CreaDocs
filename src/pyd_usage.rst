@@ -50,15 +50,6 @@ what it means)::
 		else:
 			raise OSError('Unsupported OS: %s' % os.name)
 
-	def create_entities(component):
-		"""Initializes all Content Entities with a given component. 
-		A World must be created."""
-		return [
-			game.entity.create(c.data())
-			for c in game.content.getContents()
-			if hasattr(c.data().entity, component)
-		]
-
 	def load(argv=None):
 		if argv is None:
 			argv = sys.argv
@@ -81,7 +72,7 @@ what it means)::
 
 		# now we can import siege after adding the paths
 		import siege
-		from siege import game
+		from siege import game, Locale
 		from siege.util import TileVector
 		from siege.world import World
 
@@ -92,12 +83,10 @@ what it means)::
 		
 		# optionally, create a world so we can initialize entities
 		# this also reloads content
-		#World.create(game, 'test', TileVector(256, 256), 0)
-		
-		# optionally, initialize entities so that we can
-		# inspect their runtime properties
-		#monsters = create_entities('monster')
-		#organics = create_entities('organic')
+		World.create(game, 'test', TileVector(256, 256), 0)
+	
+		# set up localization
+		Locale.setLocale("en", game.content.getPackages().getOrdered())
 
 	if __name__ == '__main__':
 		load(sys.argv)
